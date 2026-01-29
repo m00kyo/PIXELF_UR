@@ -13,6 +13,7 @@ public class Welcome extends JFrame{
         setTitle("PIXELF");
         setDefaultCloseOperation(EXIT_ON_CLOSE);
         setSize(600, 400);
+        this.setLocationRelativeTo(null);
         setVisible(true);
         wybierzUzytkownikaButton.addActionListener(new ActionListener() {
             @Override
@@ -30,3 +31,4 @@ public class Welcome extends JFrame{
         });
     }
 }
+
