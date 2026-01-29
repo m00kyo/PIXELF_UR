@@ -6,15 +6,6 @@
 
 **PIXELF** to aplikacja desktopowa stworzona w języku Java, służąca do efektywnego zarządzania domowymi zasobami spożywczymi oraz bazą przepisów kulinarnych. System pozwala użytkownikom na śledzenie posiadanych składników, tworzenie przepisów oraz bezpieczne przechowywanie danych na indywidualnych kontach.
 
-## Spis treści
-- [O projekcie](#-o-projekcie)
-- [Funkcjonalności](#-funkcjonalności)
-- [Architektura i Technologie](#-architektura-i-technologie)
-- [Wymagania systemowe](#-wymagania-systemowe)
-- [Konfiguracja i Instalacja](#-konfiguracja-i-instalacja)
-- [Struktura Bazy Danych](#-struktura-bazy-danych)
-- [Autor](#-autor)
-
 ## O projekcie
 Głównym celem systemu PIXELF jest wyeliminowanie problemu rozproszonych notatek kulinarnych oraz trudności w monitorowaniu stanów magazynowych w kuchni. Aplikacja łączy te dwa obszary w spójny interfejs graficzny. Dzięki zastosowaniu wieloużytkownikowości, każdy domownik może posiadać własne, odseparowane konto z prywatnymi danymi.
 
