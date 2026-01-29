@@ -75,6 +75,6 @@ Relacje są zabezpieczone mechanizmem `ON DELETE CASCADE` – usunięcie użytko
 
 ##  Autor
 **Oliwia Stoś**
-Uniwersytet Rzeszowski
-Wydział Nauk Ścisłych i Technicznych
-Kierunek: Informatyka i Ekonometria
+Uniwersytet Rzeszowski<br>
+Wydział Nauk Ścisłych i Technicznych<br>
+Kierunek: Informatyka i Ekonometria  
