@@ -22,6 +22,7 @@ public class Recipes extends JFrame {
         this.setDefaultCloseOperation(EXIT_ON_CLOSE);
         this.setSize(600, 400);
         this.setLocationRelativeTo(null);
+        this.setVisible(true);
 
         backButton.addActionListener(e -> {
             dispose();
@@ -87,8 +88,6 @@ public class Recipes extends JFrame {
             new AddRec(null);
             dispose();
         });
-
-        this.setVisible(true);
     }
 
     private void loadData(DefaultTableModel tableModel) {

@@ -67,11 +67,7 @@ public class NewUser extends JFrame {
                         } catch (Exception ex) {
                             ex.printStackTrace();
 
-                            String msg = ex.getMessage();
-                            if (ex.getCause() != null) {
-                                msg = ex.getCause().getMessage();
-                            }
-                            JOptionPane.showMessageDialog(null, "Błąd krytyczny: " + msg);
+                            JOptionPane.showMessageDialog(null, "Błąd krytyczny");
                         }
                     }
                 }.execute();

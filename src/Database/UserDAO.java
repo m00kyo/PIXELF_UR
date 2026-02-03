@@ -32,8 +32,6 @@ public class UserDAO {
     }
 
     public boolean create(String login, String password) {
-        // KROK 1: Sprawdzamy czy użytkownik istnieje
-        // UWAGA: Zmieniłem nazwę tabeli na 'users' (tak jak na Twoim screenie z DataGrip)
         String checkSql = "SELECT * FROM users WHERE login = ?";
 
         try (Connection conn = DbConnection.getConnection();
@@ -43,13 +41,12 @@ public class UserDAO {
             ResultSet rs = stmt.executeQuery();
 
             if (rs.next()) {
-                // Użytkownik już istnieje, przerywamy
+
                 System.out.println("Taki użytkownik już istnieje!");
                 return false;
             }
 
         } catch (Exception e) {
-            // WAŻNE: To wypisze błąd w konsoli, jeśli np. nazwa tabeli jest zła
             e.printStackTrace();
             return false;
         }

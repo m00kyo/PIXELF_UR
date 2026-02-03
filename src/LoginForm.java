@@ -11,7 +11,7 @@ public class LoginForm extends JFrame {
     private JTextField textField1;
     private JPasswordField passwordField1;
     private JPanel loginPanel;
-    private JButton powrótButton;
+    private JButton backtButton;
 
     public LoginForm() {
         super("Logowanie");
@@ -52,7 +52,7 @@ public class LoginForm extends JFrame {
                 }
             }.execute();
         });
-        powrótButton.addActionListener(new ActionListener() {
+        backtButton.addActionListener(new ActionListener() {
             @Override
             public void actionPerformed(ActionEvent e) {
                 dispose();
